@@ -7,6 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./assets/js/tailwind.config.js"></script>
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body class="overflow-x-hidden">
     <nav class="w-full h-[10rem] px-[10rem] mt-[2rem] text-[#7c736d]">
@@ -14,7 +16,7 @@
             <li><a href="#">home</a></li>
             <li><a href="#">our story</a></li>
             <li><a href="#">venue</a></li>
-            <li><a href="#"><img src="./assets/img/Logo.svg" alt="logo" class="w-[15rem] h-[15rem]"></a></li>
+            <li><a href="./index.html"><img src="./assets/img/Logo.svg" alt="logo" class="w-[15rem] h-[15rem]"></a></li>
             <li><a href="#">itinierary</a></li>
             <li><a href="#">registry</a></li>
             <li><a href="#">rsvp</a></li>
@@ -46,6 +48,25 @@
         <img src="./assets/img/couple-2.svg" alt="couple">
     </div>
     
+    <div class="flex w-full items-center h-[50rem] px-[10rem]">
+        <div class="text-3xl flex flex-col justify-between h-full py-[10rem]">
+            <p class="text-[#C6754D]">The Venue</p>
+            <h3 class="text-[#2B1105] text-[54px]">Gino Winery Estate</h3>
+            <p class="text-[#2B1105] leading-[25px]">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius.</p>
+            <p class="text-[#2B1105]">
+                4750 Tyler Avenue <br> Boise, Idaho 83705
+            </p>
+        </div>
+        <div class="swiper mySwiper bg-slate-500">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide bg-[url(./assets/img/img1.svg)] bg-cover">Slide 1</div>
+              <div class="swiper-slide bg-[url(./assets/img/img1.svg)] bg-cover">Slide 2</div>
+              <div class="swiper-slide bg-[url(./assets/img/img1.svg)] bg-cover">Slide 3</div>
+              <div class="swiper-slide bg-[url(./assets/img/img1.svg)] bg-cover">Slide 4</div>
+              <div class="swiper-slide bg-[url(./assets/img/img1.svg)] bg-cover">Slide 5</div>
+            </div>
+        </div>
+    </div>
 
 
 
